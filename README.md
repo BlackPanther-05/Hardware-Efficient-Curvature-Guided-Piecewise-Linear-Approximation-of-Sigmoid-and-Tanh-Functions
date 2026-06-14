@@ -122,15 +122,6 @@ The pre-trained model weights are included directly in their respective applicat
 
 > **Note**: Due to the size of these files (e.g., HuBERT is 1.1 GB), this repository relies on Git LFS (Large File Storage). Ensure you have Git LFS installed before cloning.
 
-## Architecture Summary
-
-| Architecture | Sigmoid Segments | Tanh Segments | Segmentation Strategy |
-|-------------|-----------------|---------------|----------------------|
-| Baseline | 16 | 16 | Uniform spacing |
-| Proposed 1 | 16 | 16 | Curvature-weighted non-uniform |
-| Proposed 2 | 14 | 9 | Optimized count + curvature-weighted |
-| CORDIC Paper 1 | N/A | N/A | Iterative coordinate rotation |
-| CORDIC Paper 2 | N/A | N/A | Iterative coordinate rotation |
 
 ## License
 
