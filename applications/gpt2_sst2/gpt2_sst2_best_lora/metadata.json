@@ -1,0 +1,10 @@
+{
+  "model_name": "gpt2",
+  "dataset": "sst2",
+  "best_metric": 90.71100917431193,
+  "metric_type": "accuracy",
+  "epoch": 3,
+  "use_lora": true,
+  "is_regression": false,
+  "num_classes": 2
+}

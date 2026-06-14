@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Vivado / Xilinx
+.Xil/
+xsim.dir/
+vivado*.jou
+vivado*.log
+vivado*.backup.*
+*.wdb
+*.pb
+*.xpr
+*.cache/
+*.runs/
+*.srcs/
+*.sim/
+*.ip_user_files/
+*.hw/
+*.gen/
+
+# Simulation artifacts
+*.vvp
+*.vcd
+*.lxt
+*.fst
+
+# Build outputs
+fpga/*/build/
+fpga/*/results/
+synthesis/synthesis_results/
+rtl/simulation_results/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Matplotlib cache
+.matplotlib/
