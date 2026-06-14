@@ -136,15 +136,4 @@ The pre-trained model weights are included directly in their respective applicat
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@inproceedings{anonymous2026activation,
-  title={Hardware-Efficient Piecewise-Linear Activation Approximation with Curvature-Aware Segmentation},
-  author={Anonymous},
-  booktitle={Proceedings of the IEEE International Conference on Computer Design (ICCD)},
-  year={2026}
-}
-```
